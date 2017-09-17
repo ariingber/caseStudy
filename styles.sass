@@ -1,0 +1,167 @@
+$primary-font:    'Source Sans Pro', sans-serif
+$merriweather: 'Merriweather', serif
+$primary-blue: #274668
+$primary-green: #3b7259
+$button-green: #8ca95e
+$white-font: #ffffff
+$grey-font: #9e9e9e
+$dark-grey-font: #464646
+$grey-form-font: #a9a9a9
+$black-font: #000000
+$blue-font: #2673b6
+$light-grey-background: #f7f5f3
+$form-background: #f2f2f2
+$grey-form-field-background: #e5e5e5
+
+body 
+ font-family: $primary-font !important
+ -webkit-font-smoothing: none
+ -webkit-font-smoothing: antialiased
+
+.light-font
+ font-weight: 300
+
+#topBar
+ .topBarA
+  background: $primary-blue
+  height: 20px
+  .topBarAText
+   font-size: 14px
+   color: $white-font
+   margin-left: 10px
+ .topBarB
+  background: $primary-green
+  height: 60px
+  .topBarBText
+   font-size: 32px
+   line-height: 60px
+   color: $white-font
+   margin-left: 10px
+
+#primaryContent
+ .listenPodButton
+  background: $button-green
+  font-family: $primary-font
+  -webkit-font-smoothing: none 
+  -webkit-font-smoothing: antialiased
+  height: 43px
+  width: 164px
+  font-size: 15px
+  border: none
+  color: $white-font
+  margin-top: 30px
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+  -webkit-transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s 
+  transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s 
+ .listenPodButton:hover
+  color: $button-green
+  background: white
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3) 
+ @media( max-width: 767px )
+  .listenPodButton
+   margin-bottom: 30px
+ #podCastSectionA
+  background-image: url("podCastBackground.jpg")
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  padding-top: 80px
+  padding-bottom: 70px
+  .podCastSectionAText
+   font-family: $merriweather
+   -webkit-font-smoothing: none 
+   -webkit-font-smoothing: antialiased
+   color: $white-font
+   font-weight: 300
+  #reOrgPod
+   @extend .podCastSectionAText
+   font-size: 21px
+  .podTitle
+   @extend .podCastSectionAText
+   font-size: 25px
+  .formBlock
+   background: $form-background 
+   padding: 30px
+   p
+    font-weight: 400
+    font-size: 15px
+   i
+    font-weight: 300
+   input
+    border-radius: 0px
+    background: $grey-form-field-background
+    border: none
+    -webkit-box-shadow: none
+    box-shadow: none
+   .emailButtonDiv
+    padding-left: 0px
+    p
+     font-weight: 300
+     font-size: 14px
+     color: $dark-grey-font
+    .emailSignUpBtn
+     float: left
+     margin-right: 20px
+     border-radius: 0px
+     width: 83px
+     height: 41px
+     background: $primary-blue
+     color: white
+     border: none
+     -webkit-transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s 
+     transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s 
+    .emailSignUpBtn:hover
+     background: white
+     color: $primary-blue
+     -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)
+     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)  
+ #podCastSectionB
+  background: $light-grey-background
+  .podTopicsBlock
+   padding: 50px
+   background: white
+   ul
+    padding: 0px
+   .podTopicTitle
+    font-family: $merriweather
+    -webkit-font-smoothing: none 
+    -webkit-font-smoothing: antialiased
+    color: $blue-font
+    font-weight: 400
+    font-size: 20px
+    margin-top: 30px
+    margin-bottom: 30px
+
+footer 
+ background: $primary-blue
+ margin-top: 0px
+ color: white
+ .footerLeftText
+  font-size: 13px
+ .footerLineOne
+  margin-top: 33px
+ .footerIcons
+  float: right
+ .fa
+  padding-left: 18px
+  color: white
+  font-size: 20px !important
+  -webkit-transition: color .3s
+  transition: color .3s
+ .fa:hover
+  color: $button-green
+ a
+  color: white
+  -webkit-transition: color .3s, text-decoration .3s
+  transition: color .3s, text-decoration .3s
+ a:hover
+  color: $button-green
+ .footerReorg
+  float: right
+  font-size: 35px !important
+ .footerLastLine
+  margin-top: -8px
+@media (max-width:767px)
+ footer
+  padding: 10px

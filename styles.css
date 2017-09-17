@@ -1,0 +1,154 @@
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased; }
+
+.light-font {
+  font-weight: 300; }
+
+#topBar .topBarA {
+  background: #274668;
+  height: 20px; }
+  #topBar .topBarA .topBarAText {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 10px; }
+
+#topBar .topBarB {
+  background: #3b7259;
+  height: 60px; }
+  #topBar .topBarB .topBarBText {
+    font-size: 32px;
+    line-height: 60px;
+    color: #ffffff;
+    margin-left: 10px; }
+
+#primaryContent .listenPodButton {
+  background: #8ca95e;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
+  height: 43px;
+  width: 164px;
+  font-size: 15px;
+  border: none;
+  color: #ffffff;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s;
+  transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s; }
+
+#primaryContent .listenPodButton:hover {
+  color: #8ca95e;
+  background: white;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
+
+@media (max-width: 767px) {
+  #primaryContent .listenPodButton {
+    margin-bottom: 30px; } }
+
+#primaryContent #podCastSectionA {
+  background-image: url("podCastBackground.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 70px; }
+  #primaryContent #podCastSectionA .podCastSectionAText, #primaryContent #podCastSectionA #reOrgPod, #primaryContent #podCastSectionA .podTitle {
+    font-family: "Merriweather", serif;
+    -webkit-font-smoothing: none;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-weight: 300; }
+  #primaryContent #podCastSectionA #reOrgPod {
+    font-size: 21px; }
+  #primaryContent #podCastSectionA .podTitle {
+    font-size: 25px; }
+  #primaryContent #podCastSectionA .formBlock {
+    background: #f2f2f2;
+    padding: 30px; }
+    #primaryContent #podCastSectionA .formBlock p {
+      font-weight: 400;
+      font-size: 15px; }
+    #primaryContent #podCastSectionA .formBlock i {
+      font-weight: 300; }
+    #primaryContent #podCastSectionA .formBlock input {
+      border-radius: 0px;
+      background: #e5e5e5;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    #primaryContent #podCastSectionA .formBlock .emailButtonDiv {
+      padding-left: 0px; }
+      #primaryContent #podCastSectionA .formBlock .emailButtonDiv p {
+        font-weight: 300;
+        font-size: 14px;
+        color: #464646; }
+      #primaryContent #podCastSectionA .formBlock .emailButtonDiv .emailSignUpBtn {
+        float: left;
+        margin-right: 20px;
+        border-radius: 0px;
+        width: 83px;
+        height: 41px;
+        background: #274668;
+        color: white;
+        border: none;
+        -webkit-transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s;
+        transition: color .4s, background .4s, -webkit-box-shadow .4s, box-shadow .4s; }
+      #primaryContent #podCastSectionA .formBlock .emailButtonDiv .emailSignUpBtn:hover {
+        background: white;
+        color: #274668;
+        -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
+
+#primaryContent #podCastSectionB {
+  background: #f7f5f3; }
+  #primaryContent #podCastSectionB .podTopicsBlock {
+    padding: 50px;
+    background: white; }
+    #primaryContent #podCastSectionB .podTopicsBlock ul {
+      padding: 0px; }
+    #primaryContent #podCastSectionB .podTopicsBlock .podTopicTitle {
+      font-family: "Merriweather", serif;
+      -webkit-font-smoothing: none;
+      -webkit-font-smoothing: antialiased;
+      color: #2673b6;
+      font-weight: 400;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+
+footer {
+  background: #274668;
+  margin-top: 0px;
+  color: white; }
+  footer .footerLeftText {
+    font-size: 13px; }
+  footer .footerLineOne {
+    margin-top: 33px; }
+  footer .footerIcons {
+    float: right; }
+  footer .fa {
+    padding-left: 18px;
+    color: white;
+    font-size: 20px !important;
+    -webkit-transition: color .3s;
+    transition: color .3s; }
+  footer .fa:hover {
+    color: #8ca95e; }
+  footer a {
+    color: white;
+    -webkit-transition: color .3s, text-decoration .3s;
+    transition: color .3s, text-decoration .3s; }
+  footer a:hover {
+    color: #8ca95e; }
+  footer .footerReorg {
+    float: right;
+    font-size: 35px !important; }
+  footer .footerLastLine {
+    margin-top: -8px; }
+
+@media (max-width: 767px) {
+  footer {
+    padding: 10px; } }
